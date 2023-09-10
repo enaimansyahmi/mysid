@@ -256,7 +256,7 @@ var banjir1mLayer = L.geoJson(null, {
         };
       },
     });
-    $.getJSON("data/1m.geojson", function (data) {
+    $.getJSON("data/1m_3.json", function (data) {
       banjir1mLayer.addData(data);
     });
 
